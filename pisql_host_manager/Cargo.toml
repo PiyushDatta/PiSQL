@@ -1,5 +1,5 @@
 [package]
-name = "pisql"
+name = "pisql_host_manager"
 version = "0.0.1"
 edition = "2021"
 authors = [ "Piyush Datta <piyushdattaca@gmail.com>" ]
@@ -7,5 +7,5 @@ authors = [ "Piyush Datta <piyushdattaca@gmail.com>" ]
 [dependencies]
 
 [[bin]]
-name = "pisql"
-path = "src/pisql_main.rs"
+name = "pisql_host_manager"
+path = "src/pisql_hm_main.rs"
