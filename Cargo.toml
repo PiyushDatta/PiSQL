@@ -1,0 +1,20 @@
+[package]
+name = "pisql"
+version = "0.0.1"
+edition = "2021"
+authors = [ "Piyush Datta <piyushdattaca@gmail.com>" ]
+
+[dependencies]
+# fork = "0.1.18"
+nix = "0.23.0"
+
+[[bin]]
+name = "pisql"
+path = "pisql.rs"
+
+[workspace]
+members = [
+  "pisql_server",
+  "pisql_host_manager",
+  "pisql_lock_manager"
+]

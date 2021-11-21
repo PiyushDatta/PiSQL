@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "pisql"
+name = "pisql_server"
 version = "0.0.1"

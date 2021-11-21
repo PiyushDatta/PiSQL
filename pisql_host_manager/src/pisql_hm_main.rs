@@ -1,3 +1,7 @@
+fn pisql_hm() {
+    println!("Starting up host manager");
+}
+
 fn main() {
-    println!("Hello from PiSQL Host Manager!");
+    pisql_hm();
 }
